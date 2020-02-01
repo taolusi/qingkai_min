@@ -17,4 +17,6 @@ social: true
 
 I'm a research assistant at Westlake University supervised by [Yue Zhang](https://frcchang.github.io). I'm working on dialogue system and semantic parsing.
 
-Previsouly, i worked as a research assistant at Singapore University of Techlogy and Design supervised by Yue Zhang.  I received both my MSc degree and undergraduate degree on Computer Science and Technology from Nanjing University of Aeronautics and Astronautics, China.
+Previsouly, i worked as a research assistant at SUTD (Singapore University of Techlogy and Design) supervised by Yue Zhang.  I received both my MSc degree and undergraduate degree on CS from NUAA (Nanjing University of Aeronautics and Astronautics), China.
+
+We build a Chinese Text-to-SQL dataset and start the Chinese semantic parsing and Text-to-SQL challenge: [CSpider 1.0](https://taolusi.github.io/CSpider-explorer/). Call for participation! 
