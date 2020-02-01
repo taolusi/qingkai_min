@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2019-08-23 20:59:00-0400
 inline: true
 ---
 
-A simple inline announcement.
+[A Pilot Study for Chinese SQL Semantic Parsing](https://arxiv.org/pdf/1909.13293.pdf) accepted by EMNLP 2019.

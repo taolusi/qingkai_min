@@ -1,48 +1,28 @@
 ---
 layout: page
-title: projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: news
+permalink: /news/
+description: 
 ---
 
-{% for project in site.projects %}
-
-{% if project.redirect %}
-<div class="project">
-    <div class="thumbnail">
-        <a href="{{ project.redirect }}" target="_blank">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
+<div class="news">
+  {% if site.news  %}
+    <table>
+    {% assign news = site.news | reverse %}
+    {% for item in news %}
+      <tr>
+        <td class="date">{{ item.date | date: "%b %-d, %Y" }}</td>
+        <td class="announcement">
+          {% if item.inline %}
+            {{ item.content }}
+          {% else %}
+            <a class="news-title" href="{{ item.url | prepend: site.baseurl }}">{{ item.title }}</a>
+          {% endif %}
+        </td>
+      </tr>
+    {% endfor %}
+    </table>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
 </div>
-{% else %}
-
-<div class="project ">
-    <div class="thumbnail">
-        <a href="{{ project.url | prepend: site.baseurl | prepend: site.url }}">
-        {% if project.img %}
-        <img class="thumbnail" src="{{ project.img | prepend: site.baseurl | prepend: site.url }}"/>
-        {% else %}
-        <div class="thumbnail blankbox"></div>
-        {% endif %}    
-        <span>
-            <h1>{{ project.title }}</h1>
-            <br/>
-            <p>{{ project.description }}</p>
-        </span>
-        </a>
-    </div>
-</div>
-
-{% endif %}
-
-{% endfor %}
