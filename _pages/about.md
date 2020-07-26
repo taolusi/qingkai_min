@@ -1,7 +1,7 @@
 ---
 layout: about
 permalink: /
-title: <strong>Qingkai</strong> Min
+title: Qingkai Min
 description: Research Assistant at Westlake University.
 
 profile:
