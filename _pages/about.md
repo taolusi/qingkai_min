@@ -14,6 +14,7 @@ profile:
 news: true
 social: true
 ---
+<strong><FONT style="FONT-SIZE: 30px">Qingkai Min</FONT></strong>
 
 I'm a research assistant at Westlake University supervised by [Yue Zhang](https://frcchang.github.io). I'm working on dialogue system and semantic parsing.
 
