@@ -18,7 +18,6 @@ Here I keep notes of various research areas.
 
 ***
 
-
 ## Graph Neural Networks
 
 * [GDPNet](https://ivenwang.com/2021/02/04/gdpnet/)
@@ -30,5 +29,13 @@ Here I keep notes of various research areas.
 ## Variational Inference
 
 * [VAE](https://ivenwang.com/2021/01/03/cgcn/)
+
+
+
+***
+
+## Event Extraction
+
+* [Generative Models](https://zhuanlan.zhihu.com/p/465947270)
 
 
